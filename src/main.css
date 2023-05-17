@@ -1,0 +1,176 @@
+body
+{
+    padding-top: 2%;
+    padding-left: 10%;
+    margin: 0%;
+    background-color: rgb(250, 231, 255);
+}
+.container 
+{
+    /* border: 1px black solid; */
+    width: 75vw;
+    height: 85vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+.container .select-tag
+{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+}
+
+.container .user
+{
+    width: 59%;
+    height: 35%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .user div:nth-child(1)
+{
+    width: 100%;
+    height: 10%;
+}
+
+.container .user div h3
+{
+    margin: 0%;
+}
+
+.container .user div:nth-child(2)
+{
+    width: 44%;
+    height: 100%;
+    order: 1;
+}
+
+.container .user div:nth-child(3)
+{
+    width: 55%;
+    height: 100%;
+    font-size: larger;
+    line-height: 4ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.container .user div img
+{
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+    line-height: 4ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.container .user ul{
+    list-style: none;
+}
+
+.container .actions
+{
+    padding: 3px 3px 0px 3px;
+    width: 39.4%;
+    height: 35%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(254, 217, 249);
+}
+
+.container .actions button{
+    border: 0px;
+    height: 10%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px slateblue solid;
+
+}
+
+.container .actions #get-posts
+{
+    background-color: rgb(255, 255, 255);
+}
+.container .actions #get-posts:hover
+{
+    background-color: rgb(175, 96, 187);
+    color: white;
+    font-weight: 600;
+}
+
+.container .actions #delete-last-post
+{
+    background-color: rgb(231, 211, 248);
+}
+
+.container .actions #delete-last-post:hover
+{
+    background-color: rgb(221, 153, 244);
+    color: white;
+    font-weight: 600;
+}
+
+.container .actions #add-post
+{
+    background-color: rgb(221, 153, 244);
+}
+
+.container .actions #add-post:hover
+{
+    background-color: rgb(231, 211, 248);
+    color: white;
+    font-weight: 600;
+}
+
+.container .actions #update-post
+{
+    background-color: rgb(175, 96, 187);
+}
+
+.container .actions #update-post:hover
+{
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.container .actions .add-post-form
+{
+    height: 80%;
+}
+
+.container .posts
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(215, 189, 239);
+    justify-content: space-between;
+}
+
+.posts .post{
+
+    background-color: purple;
+    color: white;
+    width: 25%;
+    height: 47%;
+    box-shadow: 5px 5px black;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    
+}
+
+.posts .post p{
+
+    font-size: small;
+    font-style: italic;
+
+
+}
+

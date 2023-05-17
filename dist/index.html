@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Consumer-Exercise</title>
+<script defer src="bundle.d373ad5af54048ef6283.js"></script></head>
+<body>
+    <div class="container">
+        <div class="select-tag">
+            <label for="users">Select a User</label>
+            <select name="users">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="user">
+            <div><h3>Username: <h3></h3></div>
+            <div><img src="" alt="profile pic"></div>
+            <div>
+                <ul>
+                    <li>Id: </li>
+                    <li>Name: </li>
+                    <li>Phone: </li>
+                    <li>Email: </li>
+                </ul>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="get-posts">See Posts</button>
+            <button id="delete-last-post">Delete Last Post</button>
+            <button id="add-post">Add Post</button>
+            <button id="update-post">Update Post</button>
+            <div class="add-post-form" style="display: none;">
+                <form action="" id="post-form">
+                    <label for="id" id="update-post-id-label" style="display: none;">Post Id:</label>
+                    <input type="number" id="update-post-id-input" style="display: none;"><br>
+                    <label for="title">Post Title:</label>
+                    <input type="text" name="title" id="title"><br>
+                    <label for="body">Body:</label><br>
+                    <textarea rows="4" cols="35" name="body" form="post-form">
+                    </textarea><br>
+                    <input type="submit">   
+                </form>
+                
+            </div>
+        </div>
+        <div class="posts">
+        </div>
+    </div>
+</body>
+</html>
